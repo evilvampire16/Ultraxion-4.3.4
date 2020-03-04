@@ -11,10 +11,22 @@
 # Pet LOS - Line of Sight (vmaps)
 # Various other additions.. See worldserver.conf
 
-#
-#
-#
-#
-#
-#
-#
+
+## Building / Compiling the Source
+
+* Visual Studio 2017 for Desktop;
+
+* MySQL Server 5.5
+
+* Boost 1.65.1 or 1.66.0
+
+
+* cmake- 3.0.1 or 3.8.2
+
+
+* Win32OpenSSL-1_0_2h.exe
+
+
+* OpenCataclysm 4.3.4 (15595) Streaming Download Client: (8MB Download)
+
+
