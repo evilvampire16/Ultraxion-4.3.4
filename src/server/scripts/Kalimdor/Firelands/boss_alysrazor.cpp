@@ -1,5 +1,5 @@
 /*
-* Copyright (C) 2012-2013 Reign of Darkness Network <http://reignofdarkness.net/>
+* Copyright (C) 2020 Ultraxion_Core 
 *
 * Este codigo es de uso exclusivo y privado para la red de gaming
 * Reign of Darkness Network esta totalmente prohibida su distribucion y
