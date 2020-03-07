@@ -338,7 +338,7 @@ public:
                     Creature* speaker = DoSpawnCreature(HELPER, 0, 0, 0, 0, TEMPSUMMON_TIMED_DESPAWN, 1000);
                     if (speaker)
                         speaker->CastSpell(speaker, SPELL_HEAD_SPEAKS, false);
-                    me->MonsterTextEmote(EMOTE_LAUGHS, NULL);
+                    me->MonsterTextEmote(EMOTE_LAUGHS, 0);
                 }
                 else laugh -= diff;
             }
