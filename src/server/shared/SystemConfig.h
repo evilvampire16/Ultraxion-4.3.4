@@ -25,7 +25,7 @@
 #include "Define.h"
 #include "revision.h"
 
-#define _PACKAGENAME "Athenas-Core"
+#define _PACKAGENAME "Ultraxion-Core"
 
 #if TRINITY_ENDIAN == TRINITY_BIGENDIAN
 # define _ENDIAN_STRING "big-endian"

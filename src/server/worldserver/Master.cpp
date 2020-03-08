@@ -128,15 +128,16 @@ int Master::Run()
     TC_LOG_INFO("server.worldserver", "%s (worldserver-daemon)", _FULLVERSION);
     TC_LOG_INFO("server.worldserver", "<Ctrl-C> to stop.\n");
 
-    TC_LOG_INFO("server.worldserver", " ______                       __");
-    TC_LOG_INFO("server.worldserver", "/\\__  _\\       __          __/\\ \\__");
-    TC_LOG_INFO("server.worldserver", "\\/_/\\ \\/ _ __ /\\_\\    ___ /\\_\\ \\, _\\  __  __");
-    TC_LOG_INFO("server.worldserver", "   \\ \\ \\/\\`'__\\/\\ \\ /' _ `\\/\\ \\ \\ \\/ /\\ \\/\\ \\");
-    TC_LOG_INFO("server.worldserver", "    \\ \\ \\ \\ \\/ \\ \\ \\/\\ \\/\\ \\ \\ \\ \\ \\_\\ \\ \\_\\ \\");
-    TC_LOG_INFO("server.worldserver", "     \\ \\_\\ \\_\\  \\ \\_\\ \\_\\ \\_\\ \\_\\ \\__\\\\/`____ \\");
-    TC_LOG_INFO("server.worldserver", "      \\/_/\\/_/   \\/_/\\/_/\\/_/\\/_/\\/__/ `/___/> \\");
-    TC_LOG_INFO("server.worldserver", "                                 C O R E  /\\___/");
-    TC_LOG_INFO("server.worldserver", "http://TrinityCore.org                    \\/__/\n");
+    TC_LOG_INFO("server.worldserver", " _    _       _    _ _____                          ");
+    TC_LOG_INFO("server.worldserver", "| |  | |     | |  | /  ___|                         ");
+    TC_LOG_INFO("server.worldserver", "| |  | | ___ | |  | \\ `--.  ___  _   _ _ __ ___ ___ ");
+    TC_LOG_INFO("server.worldserver", "| |/\\| |/ _ \\| |/\\| |`--. \\/ _ \\| | | | '__/ __/ _ \\");
+    TC_LOG_INFO("server.worldserver", "\\  /\\  / (_) \\  /\\  /\\__/ / (_) | |_| | | | (_|  __/");
+    TC_LOG_INFO("server.worldserver", " \\/  \\/ \\___/ \\/  \\/\\____/ \\___/ \\__,_|_|  \\___\\___|");
+    TC_LOG_INFO("server.worldserver", "WoWSource-Ultraxion 2020");
+    TC_LOG_INFO("server.worldserver", "Visit our portal.wow.ultraxion.snet");
+    TC_LOG_INFO("server.worldserver", "WoW_Ultraxion V4 Mop 4.3.4");
+	TC_LOG_INFO("server.worldserver", "http://TrinityCore.org\n");
 
     /// worldserver PID file creation
     std::string pidfile = sConfigMgr->GetStringDefault("PidFile", "");
